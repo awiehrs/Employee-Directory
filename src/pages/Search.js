@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import API from "../utils/API";
 import Navbar from "../components/Navbar/navbar";
 import Form from "../components/Form/form";
@@ -25,8 +26,8 @@ class Search extends Component {
     console.log("new value",event.target.value);
     if (event.target.name === "search") {
       const filteredList = this.state.results.filter(item => {
-    return item.name.first.toLowerCase().includes(event.target.value)
-        || item.name.last.toLowerCase().includes(event.target.value);
+    return item.name.first.includes(event.target.value)
+        || item.name.last.includes(event.target.value);
 });
       this.setState({
         filteredResults: filteredList
