@@ -9,19 +9,20 @@ import '../styles/table.css';
 import { Table } from 'reactstrap';
 
 class Search extends Component {
+    //set state for search form 
   state = {
     results: [],
     filteredResults: [],
     search: "",
   };
 
+  //load employees
   componentDidMount() {
     API.getRandomUsers()
-    // console.log(API.getRandomUsers())
     .then(res => this.setState({ filteredResults: res.data.results ,results: res.data.results }))
     .catch(err => console.log(err));
   };
-  
+  //sets state of FilteredList to filter by name when searched
   handleInputChange = event => {
     console.log("new value",event.target.value);
     if (event.target.name === "search") {
@@ -34,7 +35,7 @@ class Search extends Component {
       })
     }
   }
-
+    //function to sort employees alphabetically by last name
   sortByLastName = () => {
     const sortedEmployees = this.state.filteredResults.sort((a, b) => {
       if (b.name.last > a.name.last) {
@@ -54,7 +55,7 @@ class Search extends Component {
     this.setState({ results: sortedEmployees })
     
 }
-
+  //display when search is used
   render() {
     return (
     <div>

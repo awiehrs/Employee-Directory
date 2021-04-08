@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Table } from 'reactstrap';
 
 const SearchResults = (props) => {
   console.log(props)

@@ -10,3 +10,8 @@
     top: 16px;
     left: 10px;
   }
+
+body {
+    max-width: 75%;
+    margin: 0 auto;
+}

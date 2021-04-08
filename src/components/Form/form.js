@@ -2,7 +2,7 @@ import React from "react";
 
 function Form(props) {
   return (  
-      <nav className="navbar navbar-light bg-light">
+      <nav className="navbar navbar-light">
         <form className="form-inline" htmlFor="search"><br></br>
         <input
           onChange={props.handleInputChange}
