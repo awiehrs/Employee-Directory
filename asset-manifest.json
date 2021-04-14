@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Employee-Directory/static/css/main.18d12b1f.chunk.css",
+    "main.js": "/Employee-Directory/static/js/main.760493c3.chunk.js",
+    "main.js.map": "/Employee-Directory/static/js/main.760493c3.chunk.js.map",
+    "runtime-main.js": "/Employee-Directory/static/js/runtime-main.6ee3df7a.js",
+    "runtime-main.js.map": "/Employee-Directory/static/js/runtime-main.6ee3df7a.js.map",
+    "static/js/2.395ee7bc.chunk.js": "/Employee-Directory/static/js/2.395ee7bc.chunk.js",
+    "static/js/2.395ee7bc.chunk.js.map": "/Employee-Directory/static/js/2.395ee7bc.chunk.js.map",
+    "index.html": "/Employee-Directory/index.html",
+    "static/css/main.18d12b1f.chunk.css.map": "/Employee-Directory/static/css/main.18d12b1f.chunk.css.map",
+    "static/js/2.395ee7bc.chunk.js.LICENSE.txt": "/Employee-Directory/static/js/2.395ee7bc.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Employee-Directory/static/media/navbar-bg.0e7746d5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ee3df7a.js",
+    "static/js/2.395ee7bc.chunk.js",
+    "static/css/main.18d12b1f.chunk.css",
+    "static/js/main.760493c3.chunk.js"
+  ]
+}
