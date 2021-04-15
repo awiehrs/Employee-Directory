@@ -21,4 +21,4 @@ Search for Employees in the search bar. All queries are case-sensitive.
 
 ## Preview
 
-<img src="public/images/Screenshot.png" alt="Employee Directory application's user experience" width="1000">  
+<img src="./public/images/Screenshot.png" alt="Employee Directory application's user experience" width="1000">  
