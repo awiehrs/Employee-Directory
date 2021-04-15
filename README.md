@@ -16,4 +16,4 @@ before deploying.
 ## Usage
 Search for Employees in the search bar. All queries are case-sensitive.
 ## Preview
-![Screenshot](./public/images/screenshot.png)
+![Screenshot](public/images/screenshot.png)
